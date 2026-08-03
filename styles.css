@@ -442,6 +442,14 @@ section { padding: var(--sp-07) 0; }
 
 /* ============ Menu page ============ */
 .menu-section h2 { color: var(--accent); }
+.menu-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 var(--sp-06);
+}
+@media (max-width: 700px) {
+  .menu-columns { grid-template-columns: 1fr; }
+}
 .menu-list { list-style: none; margin: 0 0 var(--sp-06); padding: 0; }
 .menu-list li {
   display: flex;
@@ -453,6 +461,13 @@ section { padding: var(--sp-07) 0; }
 .menu-list li:last-child { border-bottom: none; }
 .menu-list .item-name { font-weight: 600; }
 .menu-list .item-desc { color: var(--text-secondary); font-size: 0.9rem; display: block; font-weight: 400; }
+.menu-list .item-price {
+  white-space: nowrap;
+  font-weight: 600;
+  color: var(--accent);
+  padding-left: var(--sp-03);
+  flex-shrink: 0;
+}
 .menu-note {
   font-size: 0.9rem;
   color: var(--text-secondary);
@@ -461,6 +476,23 @@ section { padding: var(--sp-07) 0; }
   border-radius: var(--radius);
   padding: var(--sp-04) var(--sp-05);
 }
+
+.wing-pricing {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-02);
+  margin: 0 0 var(--sp-06);
+  padding: 0;
+  list-style: none;
+}
+.wing-pricing li {
+  background: var(--card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius);
+  padding: var(--sp-02) var(--sp-04);
+  font-size: 0.9rem;
+}
+.wing-pricing .item-price { color: var(--accent); font-weight: 600; }
 
 /* ============ Hours table ============ */
 .hours-table { width: 100%; border-collapse: collapse; }

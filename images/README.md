@@ -1,11 +1,12 @@
 # Images
 
-Drop real photos here and reference them as `images/filename.jpg` in the HTML.
+Real photos, uploaded directly to this folder on GitHub.
 
-Filenames currently referenced by the site (add these when photos are ready):
-
-- `hero-lanes.jpg` — bowling lanes with overhead scoring monitors (hero photo)
-- `lanes-scoring.jpg` — bowlers at the lanes with scoring monitors
+- `cover-exterior.jpg` — exterior of the Iroquois Lanes building (homepage cover photo)
+- `lanes-bowler.jpg` — bowler mid-throw, close lane view
+- `lanes-wide.jpg` — wide shot of the lanes with the "Iroquois Lanes" sign
+- `lanes-family.jpg` — family bowling with overhead scoring monitors
+- `lanes-small.jpg` — smaller lanes photo, not currently used on any page
 - `apps-mozz-wings.jpg` — mozzarella sticks, wings, and fries
-- `burgers-fries.jpg` — burgers and sandwiches with fries
 - `sandwiches-chips.jpg` — Philly cheesesteak and grilled sandwich with chips
+- `burgers-fries.jpg` — burgers and sandwiches with fries

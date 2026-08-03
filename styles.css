@@ -411,6 +411,35 @@ section { padding: var(--sp-07) 0; }
   margin: 0;
 }
 
+/* Checkered-flag divider, a nod to the bowling alley's own
+   checkerboard floor (and a literal checkered flag for the
+   auction side of the site). Purely decorative flourish. */
+.checker-divider {
+  height: 22px;
+  background-image: conic-gradient(var(--text) 25%, transparent 0 50%, var(--text) 0 75%, transparent 0);
+  background-size: 22px 22px;
+  opacity: 0.9;
+}
+
+/* ============ Until Then badge ============ */
+.until-then-badge {
+  width: 84px;
+  height: 84px;
+  flex-shrink: 0;
+  background: #fff;
+  border-radius: 50%;
+  padding: 6px;
+}
+.until-then-badge img { width: 100%; height: 100%; object-fit: contain; }
+
+.hero-title-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-04);
+  margin-bottom: var(--sp-03);
+}
+.hero-title-row h1 { margin-bottom: 0; }
+
 /* ============ Menu page ============ */
 .menu-section h2 { color: var(--accent); }
 .menu-list { list-style: none; margin: 0 0 var(--sp-06); padding: 0; }

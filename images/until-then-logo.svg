@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="320" viewBox="0 0 400 320" role="img" aria-label="Until Then logo">
+  <circle cx="200" cy="145" r="112" fill="none" stroke="#8BC53F" stroke-width="4"/>
+  <text x="200" y="195" text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-style="italic"
+    font-weight="600"
+    font-size="42"
+    fill="#8BC53F">Until Then</text>
+</svg>

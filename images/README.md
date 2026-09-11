@@ -2,10 +2,10 @@
 
 Real photos, uploaded directly to this folder on GitHub.
 
-Iroquois Lanes:
-- `cover-exterior.jpg` — exterior of the Iroquois Lanes building (homepage hero photo)
+Small Town Lanes:
+- `cover-exterior.jpg` — exterior of the Small Town Lanes building (homepage hero photo)
 - `lanes-bowler.jpg` — bowler mid-throw, close lane view
-- `lanes-wide.jpg` — wide shot of the lanes with the "Iroquois Lanes" sign
+- `lanes-wide.jpg` — wide shot of the lanes with the "Small Town Lanes" sign
 - `lanes-family.jpg` — family bowling with overhead scoring monitors
 - `lanes-small.jpg` — smaller lanes photo, not currently used on any page
 - `apps-mozz-wings.jpg` — mozzarella sticks, wings, and fries
